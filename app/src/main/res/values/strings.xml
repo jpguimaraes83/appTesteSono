@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">testeSono</string>
+    <string name="voc_fez">Você Fez:</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="Reiniciar">Reiniciar</string>
+    <string name="avaliacao">avaliacao</string>
+    <string name="resultado">resultado</string>
+    <string name="sobre_o_teste">Sobre o Teste:</string>
+    <string name="iniciar_teste">Iniciar Teste</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundquestion"
+    tools:context=".SobreActivity">
+
+    <Button
+        android:id="@+id/btnJogar2"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/boogaloo"
+        android:onClick="btnJogarOnClick"
+        android:text="@string/iniciar_teste"
+        android:textSize="18sp"
+        app:backgroundTint="#309236"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textSB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/boogaloo"
+        android:text="@string/sobre_o_teste"
+        android:textColor="#309236"
+        android:textSize="45dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="332dp"
+        android:layout_height="420dp"
+
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="51dp"
+        android:justificationMode="inter_word"
+        android:text="Este app é baseado na  Escala de Sonolência de Epworth, onde a pessoa avaliada deve responder algumas perguntas e ao final obtém-se uma avaliação.
+                      \nUse a escala para escolher o número mais apropriado para cada situação:
+                    \n\n0 = Nenhunha chance de cochilar \n1 = Leve chance de cochilar \n2 = Chance moderada de cochilar \n3 = Alta chance de cochilar
+                    \n\nResultados: \n\n0-6 pontos – Não apresenta sonolência excessiva. O sono é de boa qualidade e com duração suficiente para sua restauração física.
+                    \n7-10 pontos – Pode apresentar sonolência caso ronque ou não durma bem. A pontuação indica situação-limite entre apresentar ou não sonolência excessiva.
+                    \n11-14 pontos – Indica sonolência leve. As causas mais comuns são o sono com duração e qualidade insuficientes e problemas respiratórios, como o ronco e as apnéias.
+                    \n15-19 pontos – Sonolência moderada. As causas mais comuns são as apnéias do sono.
+                    \nMais de 19 pontos – Sonolência grave. Existe risco de acidentes, portanto, recomenda-se não dirigir ou operar máquinas e não ingerir álcool ou sedativos."
+        android:textSize="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnJogar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSB"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
